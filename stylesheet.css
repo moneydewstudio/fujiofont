@@ -1,158 +1,54 @@
 @font-face {
-    font-family: 'Fujiwara A';
-    src: local('Fujiwara A Bold Italic'), local('FujiwaraABoldItalic'),
-        url('FujiwaraABoldItalic.woff2') format('woff2'),
-        url('FujiwaraABoldItalic.woff') format('woff');
+    font-family: 'Fujiwara B';
+    src: url('https/raw.githubusercontent.com/moneydewstudio/fujiofont/blob/main/FujiwaraBBold.woff') format('woff');
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Fujiwara A';
-    src: local('Fujiwara A Black'), local('FujiwaraABlack'),
-        url('FujiwaraABlack.woff2') format('woff2'),
-        url('FujiwaraABlack.woff') format('woff');
+    font-family: 'Fujiwara B';
+    src: url('https/raw.githubusercontent.com/moneydewstudio/fujiofont/blob/main/FujiwaraBBlack.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Fujiwara A';
-    src: local('Fujiwara A Black Italic'), local('FujiwaraABlackItalic'),
-        url('FujiwaraABlackItalic.woff2') format('woff2'),
-        url('FujiwaraABlackItalic.woff') format('woff');
+    font-family: 'Fujiwara B';
+    src: url('https/raw.githubusercontent.com/moneydewstudio/fujiofont/blob/main/FujiwaraBBlackItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Fujiwara A';
-    src: local('Fujiwara A Medium Italic'), local('FujiwaraAMediumItalic'),
-        url('FujiwaraAMediumItalic.woff2') format('woff2'),
-        url('FujiwaraAMediumItalic.woff') format('woff');
+    font-family: 'Fujiwara B';
+    src: url('https/raw.githubusercontent.com/moneydewstudio/fujiofont/blob/main/FujiwaraBLightItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fujiwara B';
+    src: url('https/raw.githubusercontent.com/moneydewstudio/fujiofont/blob/main/FujiwaraBLight.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fujiwara B';
+    src: url('https/raw.githubusercontent.com/moneydewstudio/fujiofont/blob/main/FujiwaraBMedium.woff') format('woff');
     font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara A';
-    src: local('Fujiwara A Bold'), local('FujiwaraABold'),
-        url('FujiwaraABold.woff2') format('woff2'),
-        url('FujiwaraABold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara A Regular';
-    src: local('Fujiwara A Regular Italic'), local('FujiwaraARegularItalic'),
-        url('FujiwaraARegularItalic.woff2') format('woff2'),
-        url('FujiwaraARegularItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara A';
-    src: local('Fujiwara A Light Italic'), local('FujiwaraALightItalic'),
-        url('FujiwaraALightItalic.woff2') format('woff2'),
-        url('FujiwaraALightItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara A';
-    src: local('Fujiwara A Light'), local('FujiwaraALight'),
-        url('FujiwaraALight.woff2') format('woff2'),
-        url('FujiwaraALight.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara A';
-    src: local('Fujiwara A Regular'), local('FujiwaraARegular'),
-        url('FujiwaraARegular.woff2') format('woff2'),
-        url('FujiwaraARegular.woff') format('woff');
-    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Fujiwara B';
-    src: local('Fujiwara B Bold'), local('FujiwaraBBold'),
-        url('FujiwaraBBold.woff2') format('woff2'),
-        url('FujiwaraBBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara B';
-    src: local('Fujiwara B Bold Italic'), local('FujiwaraBBoldItalic'),
-        url('FujiwaraBBoldItalic.woff2') format('woff2'),
-        url('FujiwaraBBoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara B';
-    src: local('Fujiwara B Black Italic'), local('FujiwaraBBlackItalic'),
-        url('FujiwaraBBlackItalic.woff2') format('woff2'),
-        url('FujiwaraBBlackItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara B';
-    src: local('Fujiwara B Light'), local('FujiwaraBLight'),
-        url('FujiwaraBLight.woff2') format('woff2'),
-        url('FujiwaraBLight.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara B';
-    src: local('Fujiwara B Black'), local('FujiwaraBBlack'),
-        url('FujiwaraBBlack.woff2') format('woff2'),
-        url('FujiwaraBBlack.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara B';
-    src: local('Fujiwara B Light Italic'), local('FujiwaraBLightItalic'),
-        url('FujiwaraBLightItalic.woff2') format('woff2'),
-        url('FujiwaraBLightItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara B';
-    src: local('Fujiwara B Medium Italic'), local('FujiwaraBMediumItalic'),
-        url('FujiwaraBMediumItalic.woff2') format('woff2'),
-        url('FujiwaraBMediumItalic.woff') format('woff');
+    src: url('https/raw.githubusercontent.com/moneydewstudio/fujiofont/blob/main/FujiwaraBMediumItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -160,31 +56,25 @@
 
 @font-face {
     font-family: 'Fujiwara B';
-    src: local('Fujiwara B Regular'), local('FujiwaraBRegular'),
-        url('FujiwaraBRegular.woff2') format('woff2'),
-        url('FujiwaraBRegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fujiwara B';
-    src: local('Fujiwara B Medium'), local('FujiwaraBMedium'),
-        url('FujiwaraBMedium.woff2') format('woff2'),
-        url('FujiwaraBMedium.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
+    src: url('https/raw.githubusercontent.com/moneydewstudio/fujiofont/blob/main/FujiwaraBBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Fujiwara B Regular';
-    src: local('Fujiwara B Regular Italic'), local('FujiwaraBRegularItalic'),
-        url('FujiwaraBRegularItalic.woff2') format('woff2'),
-        url('FujiwaraBRegularItalic.woff') format('woff');
+    src: url('https/raw.githubusercontent.com/moneydewstudio/fujiofont/blob/main/FujiwaraBRegularItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fujiwara B';
+    src: url('https/raw.githubusercontent.com/moneydewstudio/fujiofont/blob/main/FujiwaraBRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-display: swap;
 }
 
